@@ -1,0 +1,239 @@
+
+.weather-app{
+    background-color: rgb(0, 68, 77);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 500px;
+    height: 800px;
+    padding: 1%;
+    margin: 1%;
+}
+.search-box{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+}
+.search-box input{
+    background-color: rgb(16, 41, 44);
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 30px;
+    margin-right: 2%;
+    font-size: 100%;
+    padding-left: 2%;
+    color: black;
+}
+.search-box img{
+    width: auto;
+    height: 50%;
+}
+.weather-info-div-1{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+.weather-img-descr{
+    padding-right: 0%;
+    padding-left: 5%;
+}
+.weather-img-descr img{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.weather-img-descr p{
+    font-size: 200%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+.local-timezone{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.local-timezone h2{
+    margin-bottom: 0%;
+}
+.local-timezone p{
+    margin-top: 0%;
+    font-size: 500%;
+}
+
+.weather-info-div-2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.temp-city{
+    padding-left: 5%;
+}
+.temp{
+    font-size: 600%;
+    margin: 0%;
+    display: flex;
+    justify-content: center
+}
+.city{
+    margin-top: 0%;
+    font-size: 200%;
+    display: flex;
+    justify-content: center
+}
+.temp-min-max{
+    padding-left: 12%;
+    font-size: 130%;
+    padding-top: 2%;
+}
+.temp-min-max h3{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center
+}
+.temp-min-max p{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center
+}
+
+.weather-info-div-3{
+    padding-left: 0%;
+    padding-top: 0%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.humidity{
+    padding-left: 5%;
+    padding-top: 3%;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center
+}
+.humidity img{
+    height: 50%;
+    width: auto;
+}
+.humidity p{
+    margin-top: 0%;
+    margin-left: 3%;
+    font-size: 110%;
+}
+.wind{
+    padding-top: 3%;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center
+}
+.wind img{
+    height: 50%;
+    width: auto;
+}
+.wind p{
+    margin-top: 0%;
+    margin-left: 3%;
+    font-size: 110%;
+}
+.sunrise{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sunrise-img {
+    height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.sunrise-text{
+    margin-top: 0%;
+    font-size: 110%;
+    text-align: center;
+}
+.sunrise-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.weather-info-div-4{
+    border-top: 2px solid black;
+    padding-left: 0%;
+    padding-top: 4%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.pressure{
+    padding-left: 5%;
+    padding-top: 3%;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center
+}
+.pressure img{
+    height: 50%;
+    width: auto;
+}
+.pressure p{
+    margin-top: 0%;
+    margin-left: 3%;
+    font-size: 110%;
+}
+.visibility{
+    padding-top: 3%;
+    padding-right: 3%;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center
+}
+.visibility img{
+    height: 50%;
+    width: auto;
+}
+.visibility p{
+    margin-top: 0%;
+    margin-left: 3%;
+    font-size: 110%;
+}
+.sunset{
+    padding-right: 1%;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sunset-img {
+    height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.sunset-text{
+    margin-top: 0%;
+    font-size: 110%;
+    text-align: center;
+}
+.sunset-text p {
+    margin: 0;
+    padding: 0;
+}
+
+
